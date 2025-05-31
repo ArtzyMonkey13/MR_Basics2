@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e9b8ed876433f8a4bbb11fd7b00c12ee
+timeCreated: 1529189157
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121043
+  packageName: Painting Artist Pack PBR
+  packageVersion: 1.0
+  assetPath: Assets/devotid/Painting Package/Materials/Air Compressor.mat
+  uploadId: 747433

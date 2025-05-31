@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: afafa02aee732664d8cd16bcccfaf8e8
+timeCreated: 1529199475
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121043
+  packageName: Painting Artist Pack PBR
+  packageVersion: 1.0
+  assetPath: Assets/devotid/Painting Package/Prefabs/Air Compressor.prefab
+  uploadId: 747433

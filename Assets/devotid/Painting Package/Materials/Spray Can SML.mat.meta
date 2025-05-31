@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 68a9b50bca2de554ba93b5291d23373a
+timeCreated: 1529189156
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121043
+  packageName: Painting Artist Pack PBR
+  packageVersion: 1.0
+  assetPath: Assets/devotid/Painting Package/Materials/Spray Can SML.mat
+  uploadId: 747433

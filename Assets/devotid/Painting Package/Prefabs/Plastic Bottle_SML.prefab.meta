@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f38d681445d1ddf4a86734d0ae25d438
+timeCreated: 1529199506
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121043
+  packageName: Painting Artist Pack PBR
+  packageVersion: 1.0
+  assetPath: Assets/devotid/Painting Package/Prefabs/Plastic Bottle_SML.prefab
+  uploadId: 747433

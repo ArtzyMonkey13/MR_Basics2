@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7ea9f3371de7b02468732a1c83dc0dd0
+timeCreated: 1529199480
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121043
+  packageName: Painting Artist Pack PBR
+  packageVersion: 1.0
+  assetPath: Assets/devotid/Painting Package/Prefabs/Auto Paint Gun.prefab
+  uploadId: 747433

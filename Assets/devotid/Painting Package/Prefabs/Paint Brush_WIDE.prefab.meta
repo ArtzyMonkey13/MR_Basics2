@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: db10661303b9c1146b78f3a2ae0e36b0
+timeCreated: 1529199492
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121043
+  packageName: Painting Artist Pack PBR
+  packageVersion: 1.0
+  assetPath: Assets/devotid/Painting Package/Prefabs/Paint Brush_WIDE.prefab
+  uploadId: 747433

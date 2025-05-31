@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8143d02e977fa26419ace514d4035fa0
+timeCreated: 1529199483
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121043
+  packageName: Painting Artist Pack PBR
+  packageVersion: 1.0
+  assetPath: Assets/devotid/Painting Package/Prefabs/Color Pallete.prefab
+  uploadId: 747433

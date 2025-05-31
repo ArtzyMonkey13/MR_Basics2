@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 49c1ce711ef554e4d8b56f87ddc36b7d
+timeCreated: 1529189156
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121043
+  packageName: Painting Artist Pack PBR
+  packageVersion: 1.0
+  assetPath: Assets/devotid/Painting Package/Materials/Plastic Bottles.mat
+  uploadId: 747433

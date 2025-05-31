@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: 2c76694ecc33f1e4f86e2295dfa3d87a
+timeCreated: 1529189157
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Air Compressor
+    100002: Airbrush
+    100004: Auto Paint Gun
+    100006: Color Pallete
+    100008: Handle
+    100010: Marker_SML
+    100012: Paint Brush_ROUND
+    100014: Paint Brush_WIDE
+    100016: Paint Can_REG
+    100018: Paint Can_SML
+    100020: Paint Roller Pan
+    100022: //RootNode
+    100024: Plastic Bottle_LRG
+    100026: Plastic Bottle_MED
+    100028: Plastic Bottle_SML
+    100030: Spray Can LRG_CAP
+    100032: Spray Can LRG_CLOSED
+    100034: Spray Can LRG_OPEN
+    100036: Spray Can MED_CAP
+    100038: Spray Can MED_CLOSED
+    100040: Spray Can MED_OPEN
+    100042: Spray Can SML_CAP
+    100044: Spray Can SML_CLOSED
+    100046: Spray Can SML_OPEN
+    100048: Spray Paint Handle
+    100050: Airbrush Trigger
+    100052: Marker CAP
+    100054: Paint Can LRG Handle
+    100056: Paint Can LRG LID
+    100058: Paint Can SML LID
+    100060: Paint Gun LID
+    100062: Paint Gun TRIGGER
+    100064: Spray Paint Handle TRIGGER
+    100066: Paint Roller FOAM
+    400000: Air Compressor
+    400002: Airbrush
+    400004: Auto Paint Gun
+    400006: Color Pallete
+    400008: Handle
+    400010: Marker_SML
+    400012: Paint Brush_ROUND
+    400014: Paint Brush_WIDE
+    400016: Paint Can_REG
+    400018: Paint Can_SML
+    400020: Paint Roller Pan
+    400022: //RootNode
+    400024: Plastic Bottle_LRG
+    400026: Plastic Bottle_MED
+    400028: Plastic Bottle_SML
+    400030: Spray Can LRG_CAP
+    400032: Spray Can LRG_CLOSED
+    400034: Spray Can LRG_OPEN
+    400036: Spray Can MED_CAP
+    400038: Spray Can MED_CLOSED
+    400040: Spray Can MED_OPEN
+    400042: Spray Can SML_CAP
+    400044: Spray Can SML_CLOSED
+    400046: Spray Can SML_OPEN
+    400048: Spray Paint Handle
+    400050: Airbrush Trigger
+    400052: Marker CAP
+    400054: Paint Can LRG Handle
+    400056: Paint Can LRG LID
+    400058: Paint Can SML LID
+    400060: Paint Gun LID
+    400062: Paint Gun TRIGGER
+    400064: Spray Paint Handle TRIGGER
+    400066: Paint Roller FOAM
+    2300000: Air Compressor
+    2300002: Airbrush
+    2300004: Auto Paint Gun
+    2300006: Color Pallete
+    2300008: Handle
+    2300010: Marker_SML
+    2300012: Paint Brush_ROUND
+    2300014: Paint Brush_WIDE
+    2300016: Paint Can_REG
+    2300018: Paint Can_SML
+    2300020: Paint Roller Pan
+    2300022: Plastic Bottle_LRG
+    2300024: Plastic Bottle_MED
+    2300026: Plastic Bottle_SML
+    2300028: Spray Can LRG_CAP
+    2300030: Spray Can LRG_CLOSED
+    2300032: Spray Can LRG_OPEN
+    2300034: Spray Can MED_CAP
+    2300036: Spray Can MED_CLOSED
+    2300038: Spray Can MED_OPEN
+    2300040: Spray Can SML_CAP
+    2300042: Spray Can SML_CLOSED
+    2300044: Spray Can SML_OPEN
+    2300046: Spray Paint Handle
+    2300048: Airbrush Trigger
+    2300050: Marker CAP
+    2300052: Paint Can LRG Handle
+    2300054: Paint Can LRG LID
+    2300056: Paint Can SML LID
+    2300058: Paint Gun LID
+    2300060: Paint Gun TRIGGER
+    2300062: Spray Paint Handle TRIGGER
+    2300064: Paint Roller FOAM
+    3300000: Air Compressor
+    3300002: Airbrush
+    3300004: Auto Paint Gun
+    3300006: Color Pallete
+    3300008: Handle
+    3300010: Marker_SML
+    3300012: Paint Brush_ROUND
+    3300014: Paint Brush_WIDE
+    3300016: Paint Can_REG
+    3300018: Paint Can_SML
+    3300020: Paint Roller Pan
+    3300022: Plastic Bottle_LRG
+    3300024: Plastic Bottle_MED
+    3300026: Plastic Bottle_SML
+    3300028: Spray Can LRG_CAP
+    3300030: Spray Can LRG_CLOSED
+    3300032: Spray Can LRG_OPEN
+    3300034: Spray Can MED_CAP
+    3300036: Spray Can MED_CLOSED
+    3300038: Spray Can MED_OPEN
+    3300040: Spray Can SML_CAP
+    3300042: Spray Can SML_CLOSED
+    3300044: Spray Can SML_OPEN
+    3300046: Spray Paint Handle
+    3300048: Airbrush Trigger
+    3300050: Marker CAP
+    3300052: Paint Can LRG Handle
+    3300054: Paint Can LRG LID
+    3300056: Paint Can SML LID
+    3300058: Paint Gun LID
+    3300060: Paint Gun TRIGGER
+    3300062: Spray Paint Handle TRIGGER
+    3300064: Paint Roller FOAM
+    4300000: Plastic Bottle_SML
+    4300002: Spray Can LRG_CAP
+    4300004: Spray Can MED_CLOSED
+    4300006: Spray Can SML_OPEN
+    4300008: Spray Can LRG_OPEN
+    4300010: Spray Can MED_OPEN
+    4300012: Spray Can SML_CLOSED
+    4300014: Plastic Bottle_MED
+    4300016: Plastic Bottle_LRG
+    4300018: Paint Can_REG
+    4300020: Paint Can_SML
+    4300022: Spray Paint Handle
+    4300024: Auto Paint Gun
+    4300026: Handle
+    4300028: Paint Brush_WIDE
+    4300030: Paint Brush_ROUND
+    4300032: Color Pallete
+    4300034: Paint Roller Pan
+    4300036: Spray Can MED_CAP
+    4300038: Spray Can LRG_CLOSED
+    4300040: Spray Can SML_CAP
+    4300042: Marker_SML
+    4300044: Air Compressor
+    4300046: Airbrush
+    4300048: Paint Can LRG Handle
+    4300050: Paint Can LRG LID
+    4300052: Paint Can SML LID
+    4300054: Spray Paint Handle TRIGGER
+    4300056: Paint Gun LID
+    4300058: Paint Gun TRIGGER
+    4300060: Marker CAP
+    4300062: Airbrush Trigger
+    4300064: Paint Roller FOAM
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121043
+  packageName: Painting Artist Pack PBR
+  packageVersion: 1.0
+  assetPath: Assets/devotid/Painting Package/Models/Painting Package FBX.FBX
+  uploadId: 747433

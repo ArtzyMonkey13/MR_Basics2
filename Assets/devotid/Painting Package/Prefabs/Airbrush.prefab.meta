@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4dd4febb67c19d148bb59610c25b5f32
+timeCreated: 1529199477
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121043
+  packageName: Painting Artist Pack PBR
+  packageVersion: 1.0
+  assetPath: Assets/devotid/Painting Package/Prefabs/Airbrush.prefab
+  uploadId: 747433

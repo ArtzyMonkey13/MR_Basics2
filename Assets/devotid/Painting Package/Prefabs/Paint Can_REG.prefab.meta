@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e2c550a1a49072344b7b849aa42eec07
+timeCreated: 1529199494
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121043
+  packageName: Painting Artist Pack PBR
+  packageVersion: 1.0
+  assetPath: Assets/devotid/Painting Package/Prefabs/Paint Can_REG.prefab
+  uploadId: 747433

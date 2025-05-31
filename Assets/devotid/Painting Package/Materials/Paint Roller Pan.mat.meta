@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 025e318aa2f9c70429dcb655beb2eb5f
+timeCreated: 1529189157
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121043
+  packageName: Painting Artist Pack PBR
+  packageVersion: 1.0
+  assetPath: Assets/devotid/Painting Package/Materials/Paint Roller Pan.mat
+  uploadId: 747433

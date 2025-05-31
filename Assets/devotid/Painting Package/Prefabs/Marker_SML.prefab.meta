@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a37a3bb42d2ddf94a96d97e0ab8e0d11
+timeCreated: 1529199487
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121043
+  packageName: Painting Artist Pack PBR
+  packageVersion: 1.0
+  assetPath: Assets/devotid/Painting Package/Prefabs/Marker_SML.prefab
+  uploadId: 747433
