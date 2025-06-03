@@ -29,7 +29,9 @@ MonoBehaviour:
   m_RequiresSettingsUpdate: 0
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
-  m_Loaders: []
+  m_Loaders:
+  - {fileID: 11400000, guid: c9ea41f46e0724c748d034d0dad26f60, type: 2}
+  - {fileID: 11400000, guid: 3453d75cb338047539d45dfb2ee1d220, type: 2}
 --- !u!114 &-4102142365282215102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44,6 +46,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -5520389312671471304}
   m_InitManagerOnStart: 1
+--- !u!114 &-1620681382582149743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+  m_Name: WebGL Settings
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: 3798995872165860282}
+  m_InitManagerOnStart: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56,11 +72,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettingsPerBuildTarget
   m_EditorClassIdentifier: 
-  Keys: 010000000700000004000000
+  Keys: 0100000007000000040000000d000000
   Values:
   - {fileID: -4102142365282215102}
   - {fileID: -7789784599418869193}
   - {fileID: 7068346905409046473}
+  - {fileID: -1620681382582149743}
+--- !u!114 &3798995872165860282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
+  m_Name: WebGL Providers
+  m_EditorClassIdentifier: 
+  m_RequiresSettingsUpdate: 0
+  m_AutomaticLoading: 0
+  m_AutomaticRunning: 0
+  m_Loaders: []
 --- !u!114 &4345612832645694192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,7 +109,8 @@ MonoBehaviour:
   m_RequiresSettingsUpdate: 0
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
-  m_Loaders: []
+  m_Loaders:
+  - {fileID: 11400000, guid: 0b7ab7be3256844b28c55708bd4ee8f0, type: 2}
 --- !u!114 &4354340312608790988
 MonoBehaviour:
   m_ObjectHideFlags: 0
