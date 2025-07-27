@@ -3,9 +3,15 @@ using UnityEngine;
 public class PaintRoller : MonoBehaviour
 {
     public Transform rollerTip;
+    public Renderer rollerRenderer; // Assign this in the Inspector
     public Color paintColor = Color.red;
     public float rayDistance = 0.1f;
     public int brushSize = 4;
+
+    void Start()
+    {
+        UpdateVisualColor();
+    }
 
     void Update()
     {
@@ -34,6 +40,20 @@ public class PaintRoller : MonoBehaviour
             {
                 Debug.Log("Hit something, but no PaintableCanvas found.");
             }
+        }
+    }
+
+    public void SetPaintColor(Color newColor)
+    {
+        paintColor = newColor;
+        UpdateVisualColor();
+    }
+
+    private void UpdateVisualColor()
+    {
+        if (rollerRenderer != null)
+        {
+            rollerRenderer.material.color = paintColor;
         }
     }
 }
