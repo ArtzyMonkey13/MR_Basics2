@@ -3,16 +3,17 @@ using UnityEngine;
 public class PaintBrush : MonoBehaviour
 {
     [Header("Brush Settings")]
-    public Transform brushTip;                // Bristle tip position
-    public Renderer brushRenderer;            // Renderer for visual color
-    public Color paintColor = Color.red;      // Current selected paint color
-    public float rayDistance = 0.1f;          // How far to check for canvas
-    public int brushSize = 4;                 // Standard brush stroke size
+    public Transform brushTip;
+    public Renderer brushRenderer;
+    public Color paintColor = Color.red;
+    public float rayDistance = 0.1f;
+    public int brushSize = 4;
 
     [Header("Flick Splatter Settings")]
-    public Rigidbody brushRigidbody;          // Rigidbody to measure motion
-    public float flickVelocityThreshold = 1.5f; // Speed threshold to trigger splatter
-    public float splatterSizeMultiplier = 3f;   // Scale for splatter brush size
+    public Rigidbody brushRigidbody;
+    public float flickVelocityThreshold = 1.5f;
+    public float splatterSizeMultiplier = 3f;
+    public float flickRayDistance = 1.5f; // 🎯 New: splatter from a distance
 
     void Update()
     {
@@ -21,19 +22,21 @@ public class PaintBrush : MonoBehaviour
         Vector3 origin = brushTip.position;
         Vector3 dir = -brushTip.up;
 
-        Debug.DrawRay(origin, dir * rayDistance, Color.magenta);
+        bool isFlicking = brushRigidbody != null &&
+                          brushRigidbody.linearVelocity.magnitude > flickVelocityThreshold;
 
-        if (Physics.Raycast(origin, dir, out RaycastHit hit, rayDistance))
+        float activeRayDistance = isFlicking ? flickRayDistance : rayDistance;
+
+        Debug.DrawRay(origin, dir * activeRayDistance, isFlicking ? Color.red : Color.magenta);
+
+        if (Physics.Raycast(origin, dir, out RaycastHit hit, activeRayDistance))
         {
             var canvas = hit.collider.GetComponent<PaintableCanvas>();
             if (canvas)
             {
-                bool isFlicking = brushRigidbody != null &&
-                                  brushRigidbody.linearVelocity.magnitude > flickVelocityThreshold;
-
                 if (isFlicking)
                 {
-                    Debug.Log("💥 Flick detected! Applying splatter.");
+                    Debug.Log("💥 Distance flick splatter!");
                     int splatterSize = Mathf.RoundToInt(brushSize * splatterSizeMultiplier);
                     canvas.PaintAtUV(hit.textureCoord, paintColor, splatterSize, useRandomSplatter: true);
                 }
@@ -45,10 +48,6 @@ public class PaintBrush : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Change the paint color and update the visual brush tip
-    /// </summary>
-    /// <param name="newColor">Color to change to</param>
     public void SetPaintColor(Color newColor)
     {
         paintColor = newColor;
@@ -56,9 +55,6 @@ public class PaintBrush : MonoBehaviour
         Debug.Log($"🎨 Paint color changed to: {newColor}");
     }
 
-    /// <summary>
-    /// Updates the brush tip material to match the current paint color
-    /// </summary>
     private void UpdateBrushVisual()
     {
         if (brushRenderer != null)
