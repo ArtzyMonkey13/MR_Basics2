@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "android-24"
+			"value" : "android-29"
 		},
 		{
 			"name" : "ANDROID_STL",
@@ -163,7 +163,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "RelWithDebInfo"
+			"value" : "Debug"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -175,7 +175,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/krystakeller/MR_Basics1/.utmp/RelWithDebInfo/fs666h1z/arm64-v8a"
+			"value" : "/Users/krystakeller/MR_Basics1/.utmp/Debug/5e5r2432/arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/Users/krystakeller/MR_Basics1/.utmp/RelWithDebInfo/fs666h1z/prefab/arm64-v8a/prefab"
+			"value" : "/Users/krystakeller/MR_Basics1/.utmp/Debug/5e5r2432/prefab/arm64-v8a/prefab"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -787,7 +787,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/Users/krystakeller/MR_Basics1/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/fs666h1z/obj/arm64-v8a"
+			"value" : "/Users/krystakeller/MR_Basics1/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/5e5r2432/obj/arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1059,7 +1059,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/Users/krystakeller/MR_Basics1/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/fs666h1z/obj/arm64-v8a"
+			"value" : "/Users/krystakeller/MR_Basics1/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/5e5r2432/obj/arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1291,7 +1291,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "24"
+			"value" : "29"
 		},
 		{
 			"name" : "CMAKE_TOOLCHAIN_FILE",
@@ -1343,7 +1343,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/krystakeller/MR_Basics1/.utmp/RelWithDebInfo/fs666h1z/arm64-v8a"
+			"value" : "/Users/krystakeller/MR_Basics1/.utmp/Debug/5e5r2432/arm64-v8a"
 		},
 		{
 			"name" : "Unity_IS_TOP_LEVEL",
@@ -1379,7 +1379,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/Users/krystakeller/MR_Basics1/.utmp/RelWithDebInfo/fs666h1z/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/game-activity"
+			"value" : "/Users/krystakeller/MR_Basics1/.utmp/Debug/5e5r2432/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/game-activity"
 		},
 		{
 			"name" : "game_BINARY_DIR",
@@ -1391,7 +1391,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/krystakeller/MR_Basics1/.utmp/RelWithDebInfo/fs666h1z/arm64-v8a/GameActivity"
+			"value" : "/Users/krystakeller/MR_Basics1/.utmp/Debug/5e5r2432/arm64-v8a/GameActivity"
 		},
 		{
 			"name" : "game_IS_TOP_LEVEL",

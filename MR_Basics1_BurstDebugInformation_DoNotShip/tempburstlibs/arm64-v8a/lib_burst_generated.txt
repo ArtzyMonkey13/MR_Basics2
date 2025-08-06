@@ -12,6 +12,7 @@ Library: /Users/krystakeller/MR_Basics1/Temp/BurstOutput/tempburstlibs/arm64-v8a
 --float-mode=Fast
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/krystakeller/MR_Basics1/Temp/Burst
+--debug=Full
 --key-folder=/Applications/Unity/Hub/Editor/6000.0.52f1/PlaybackEngines/AndroidPlayer
 --decode-folder=/Users/krystakeller/MR_Basics1/Library/Burst
 --output=/Users/krystakeller/MR_Basics1/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
@@ -30,6 +31,7 @@ Library: /Users/krystakeller/MR_Basics1/Temp/BurstOutput/tempburstlibs/arm64-v8a
 --target-framework=NetFramework
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/krystakeller/MR_Basics1/Temp/Burst
+--debug=Full
 --key-folder=/Applications/Unity/Hub/Editor/6000.0.52f1/PlaybackEngines/AndroidPlayer
 --decode-folder=/Users/krystakeller/MR_Basics1/Library/Burst
 --output=/Users/krystakeller/MR_Basics1/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
@@ -100,6 +102,7 @@ Library: /Users/krystakeller/MR_Basics1/Temp/BurstOutput/tempburstlibs/arm64-v8a
 --target-framework=NetFramework
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/krystakeller/MR_Basics1/Temp/Burst
+--debug=Full
 --key-folder=/Applications/Unity/Hub/Editor/6000.0.52f1/PlaybackEngines/AndroidPlayer
 --decode-folder=/Users/krystakeller/MR_Basics1/Library/Burst
 --output=/Users/krystakeller/MR_Basics1/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
